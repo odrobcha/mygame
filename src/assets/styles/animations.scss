@@ -1,0 +1,38 @@
+@keyframes moveRight {
+    0% {top: 0px; left: 0; }
+    5% {top: 0%; left: 20%; }
+    10% {top: 0%; left: 15%; }
+    15% {top: 0%; left: 20%; }
+    20% {top: 00%; left: 25%; }
+    25% {top: 0%; left: 35%; }
+    30% {top: 0%; left: 40%; }
+    35% {top: 0%; left: 45%; }
+    40% {top: 0%; left: 55%; }
+    45% {top: 0%; left: 60%; }
+    50% {top: 0%; left: 65%; }
+    55% {top: 0%; left: 70%; }
+    65% {top: 0%; left: 75%; }
+    70% {top: 0%; left: 80%; }
+    75% {top: 0%; left: 85%; }
+    80% {top: 0%; left: 95%; }
+    85% {top: 0%; left: 95%; }
+    90% {top: 0%; left: 97%; }
+    95% {top: 0%; left: 99%; }
+    100% {top: 100%; left: 100%; }
+}
+
+@keyframes sun {
+    0%{ transform: rotate(0deg)}
+   /* 10%{ transform: rotate(70deg)}
+    20%{ transform: rotate(-20deg)}
+    30%{ transform: rotate(40deg)}
+    40%{ transform: rotate(70deg)}*/
+    20%{ transform: rotate(-180deg)}
+   /* 60%{ transform: rotate(50deg)}
+    70%{ transform: rotate(-10deg)}*/
+  /*  80%{ transform: rotate(80deg)}*/
+  /*  90%{ transform: rotate(-10deg)}*/
+    50%{ transform: rotate(360deg)}
+    100%{ transform: rotate(360deg)}
+
+}

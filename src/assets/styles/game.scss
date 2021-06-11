@@ -1,0 +1,6 @@
+.game{
+    display: grid;
+    grid-template-rows: 40px auto;
+    grid-template-columns: 100%;
+    grid-auto-flow: column;
+}
