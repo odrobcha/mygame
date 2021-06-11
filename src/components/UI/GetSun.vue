@@ -9,15 +9,15 @@
 			</div>
 			<div class="description">
 				<div class="text">
-					<span>Yoooohooooo! Great job!</span>
+					<span>{{$t('getSun.part1')}}</span>
 					<div class="move-bg move-bg--first"></div>
 				</div>
 				<div class="text">
-					<span>You got your {{this.$store.state.totalScore}} <img class="sun-img" src="../../assets/img/sun.svg">!!!!</span>
+					<span>{{$t('getSun.part2')}} {{this.$store.state.totalScore}} <img class="sun-img" src="../../assets/img/sun.svg">!!!!</span>
 					<div class="move-bg move-bg--second"></div>
 				</div>
 				<div class="text">
-					<span>Go ahead!!!!</span>
+					<span>{{$t('getSun.part3')}}</span>
 					<div class="move-bg move-bg--third"></div>
 				</div>
 			</div>

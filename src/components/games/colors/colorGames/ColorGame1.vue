@@ -21,8 +21,6 @@
 			<div class="random-color">
 				<img :src="this.randomColorImgUrl">
 
-
-
 				<play-sounds :colorNumber="randomColor"></play-sounds>
 
 
@@ -44,12 +42,12 @@
 
 <script>
 	import GameHeader from '@/components/UI/GameHeader';
-	import GetSun from '@/components/UI/GetSun';
+	import GetSun from "../../../UI/GetSun";
   import PlaySounds from "./playSounds";
     export default {
         name: 'ColorGame1',
-		components: {PlaySounds, GameHeader, GetSun},
-		data(){
+        components: {PlaySounds, GameHeader, GetSun},
+        data(){
             return{
                 title: 'colorGame1_Title',
                 colors: [
@@ -67,7 +65,7 @@
                 currentColor: '',
                 score: 0,
                 test: true,
-                        getSun: false,
+                getSun: false,
             }
 		},
 		created(){

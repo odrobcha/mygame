@@ -81,7 +81,6 @@ export default {
   },
   methods:{
     playColor(){
-      console.log(this.$store.state.lang);
       for (const item of this.colors){
         if (item.key == this.colorNumber){
           this.currentColor = item.color;
@@ -90,10 +89,8 @@ export default {
 
       let allRefs = this.$refs;
       for (let item in allRefs){
-        if (item == this.currentColor){
-          let playingItem = this.$store.state.lang + '-' + item;
-          console.log(playingItem);
-          allRefs[playingItem].play();
+        if (item == this.$store.state.lang + '-' + this.currentColor){
+          allRefs[item].play();
         }
       }
     }
