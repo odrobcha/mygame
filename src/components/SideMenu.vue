@@ -179,4 +179,13 @@
 		100% {top: 100%; left: 100%; }
 	}
 
+  @media only screen and (max-width: 1000px){
+
+    .menu-item, .menu-item a{
+      width: 100px;
+      height: 40px;
+      font-size: 20px;
+    }
+  }
+
 </style>
